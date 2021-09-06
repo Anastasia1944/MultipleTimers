@@ -9,25 +9,19 @@
 /* Begin PBXBuildFile section */
 		5DA1874F26E22C9100EED036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1874E26E22C9100EED036 /* AppDelegate.swift */; };
 		5DA1875126E22C9100EED036 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1875026E22C9100EED036 /* SceneDelegate.swift */; };
-		5DA1875326E22C9100EED036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1875226E22C9100EED036 /* ViewController.swift */; };
 		5DA1875626E22C9100EED036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA1875426E22C9100EED036 /* Main.storyboard */; };
 		5DA1875826E22C9200EED036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA1875726E22C9200EED036 /* Assets.xcassets */; };
 		5DA1875B26E22C9200EED036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA1875926E22C9200EED036 /* LaunchScreen.storyboard */; };
-		5DA1876626E25EED00EED036 /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1876526E25EED00EED036 /* TimerCell.swift */; };
-		5DA1876A26E50D5000EED036 /* TimerTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1876926E50D5000EED036 /* TimerTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5DA1874B26E22C9100EED036 /* TimerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA1874E26E22C9100EED036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DA1875026E22C9100EED036 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5DA1875226E22C9100EED036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5DA1875526E22C9100EED036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DA1875726E22C9200EED036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA1875A26E22C9200EED036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA1875C26E22C9200EED036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DA1876526E25EED00EED036 /* TimerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
-		5DA1876926E50D5000EED036 /* TimerTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,39 +56,12 @@
 			children = (
 				5DA1874E26E22C9100EED036 /* AppDelegate.swift */,
 				5DA1875026E22C9100EED036 /* SceneDelegate.swift */,
-				5DA1876826E50D1000EED036 /* Model */,
-				5DA1876426E25ED500EED036 /* View */,
-				5DA1876726E50D0600EED036 /* Controller */,
 				5DA1875726E22C9200EED036 /* Assets.xcassets */,
+				5DA1875426E22C9100EED036 /* Main.storyboard */,
 				5DA1875926E22C9200EED036 /* LaunchScreen.storyboard */,
 				5DA1875C26E22C9200EED036 /* Info.plist */,
 			);
 			path = TimerTest;
-			sourceTree = "<group>";
-		};
-		5DA1876426E25ED500EED036 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				5DA1875426E22C9100EED036 /* Main.storyboard */,
-				5DA1876526E25EED00EED036 /* TimerCell.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		5DA1876726E50D0600EED036 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				5DA1875226E22C9100EED036 /* ViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		5DA1876826E50D1000EED036 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				5DA1876926E50D5000EED036 /* TimerTask.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,11 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA1875326E22C9100EED036 /* ViewController.swift in Sources */,
 				5DA1874F26E22C9100EED036 /* AppDelegate.swift in Sources */,
-				5DA1876A26E50D5000EED036 /* TimerTask.swift in Sources */,
 				5DA1875126E22C9100EED036 /* SceneDelegate.swift in Sources */,
-				5DA1876626E25EED00EED036 /* TimerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
