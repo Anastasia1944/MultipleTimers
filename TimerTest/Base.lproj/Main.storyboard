@@ -11,7 +11,7 @@
         <!--Timers-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TimerTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TimersViewController" customModule="TimerTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,6 +108,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Timers" id="IHe-JB-E66"/>
+                    <connections>
+                        <outlet property="addTimerButton" destination="1rq-WN-hxX" id="H7T-OC-f4B"/>
+                        <outlet property="currentTimersTableView" destination="TGH-Of-FGN" id="eGi-1L-9ad"/>
+                        <outlet property="timerNameTextField" destination="CVm-U5-8yw" id="kAZ-MO-uCD"/>
+                        <outlet property="timerTimePickerView" destination="qT9-rq-Fnt" id="FnH-5f-S1h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
